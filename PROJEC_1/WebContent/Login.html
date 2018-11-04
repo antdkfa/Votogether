@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+    	#wrap {
+			width: 1200px;
+			text-align:center;
+			margin: 0 auto 0 autu;
+		}
+		#chk {
+			text-align :center;
+		}
+        body {
+            background-color: #F7F7F7;
+            font-family: '맑은 고딕';
+        }
+
+        p {
+            text-align: center;
+            margin-top: 7%;
+        }
+
+        .content {
+            margin-left: 27%;
+            padding: 2%;
+            width: 44%;
+            border: 1px solid lightgray;
+            box-shadow: 2px 2px 5px #808080;
+            background-color: white;
+        }
+        table{
+            margin-left:4%;
+        }
+        h2 {
+            font-weight: bold;
+        }
+
+        h5 {
+            font-weight: normal;
+            color: gray;
+        }
+
+        .login_button {
+            padding: 20px 45px;
+            font: 110% '맑은 고딕';
+            background-color: #3F84F5;
+            color: white;
+            border: 1px solid #3F84F5;
+        }
+
+            .login_button:hover {
+                background-color: #3E82F0;
+                border: 1px solid #2F5BB7;
+                text-shadow: 0px 2px 1px #2B5BA8;
+            }
+
+        a {
+            font: 100% '맑은 고딕';
+            color: dodgerblue;
+            text-decoration: none;
+        }
+
+            a:hover {
+                color: darkblue;
+            }
+        #title {
+            text-decoration: none;
+            color: #3F84F5;
+            font: 80% '맑은 고딕';
+            margin-top: 2%;
+        }
+            #title:hover {
+                color: darkblue;
+            }
+    </style>
+    <link type="text/css" rel="stylesheet" href="copyright_css.css" />
+    <title>로그인</title>
+</head>
+<body>
+	<div style="min-width:1200px;">
+	<a href="Join.jsp" id="title">회원가입</a>
+	<p>
+		<a href="Login_Join.html"><img src="Logo.png" style="max-width:35%" /></a>
+    </p>
+    <BR><BR><BR>
+<div id="wrap">
+<div class="content">
+<FORM ACTION=login METHOD=POST>
+	아이디 : <INPUT TYPE=TEXT NAME=ID SIZE=12><BR>
+	패스워드 : <INPUT TYPE=PASSWORD NAME=PASSWORD SIZE=12><BR>
+	<INPUT TYPE=SUBMIT VALUE='login'>
+</FORM>
+
+<h5>
+	 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;아이디 또는 비밀번호를 잊어버리셨나요?&nbsp;&nbsp;
+     <a href="FindID_PW.html">아이디 /비밀번호 </a>찾기
+    </h5>
+    </div>
+    </div>
+    </div>
+	</body>
+</html>
